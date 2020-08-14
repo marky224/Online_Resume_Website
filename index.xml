@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mark Marquez&#39;s Online Resume</title>
+    <link>https://marky224.github.io/Online_Resume_Website/</link>
+    <description>Recent content on Mark Marquez&#39;s Online Resume</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://marky224.github.io/Online_Resume_Website/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

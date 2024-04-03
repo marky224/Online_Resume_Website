@@ -1,0 +1,457 @@
+# Page settings
+
+
+title = "Mark Marquez's Online Resume"
+baseURL = "https://marky224.github.io/Online_Resume_Website/"
+languageCode = "en"
+theme = "DevResume"
+
+canonifyURLs = true
+
+#googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Mark Marquez"
+        tagline = "Systems Administrator"
+        avatar = "Headshot - cropped.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "San Antonio, Texas"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:8184938758"
+        text = "(818) 493 - 8758"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:me@markandrewmarquez.com"
+        text = "me@MarkAndrewMarquez.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://MarkAndrewMarquez.com/"
+        text = "Personal Website"
+
+
+
+
+      [params.skills]
+          enable = true
+
+
+          [[params.skills.list]]
+          title = "Technical Languages"
+          [[params.skills.list.items]]
+          details = "Python"
+          [[params.skills.list.items]]
+          details = "PowerShell"
+          [[params.skills.list.items]]
+          details = "Bash"
+          [[params.skills.list.items]]
+          details = "SQL"
+          [[params.skills.list.items]]
+          details = "HTML / CSS"
+          [[params.skills.list.items]]
+          details = "Javascript (SalesForce, Adobe)"
+          [[params.skills.list.items]]
+          details = "Windows 10 / 11 / Server"
+
+
+          [[params.skills.list]]
+          title = "IT Skillset"
+          [[params.skills.list.items]]
+          details = "Cybersecurity"
+          [[params.skills.list.items]]
+          details = "Programming and Scripting"
+          [[params.skills.list.items]]
+          details = "Cloud (AWS, Azure, SharePoint, OneDrive)"
+          [[params.skills.list.items]]
+          details = "Network Installations / Upgrades"
+          [[params.skills.list.items]]
+          details = "PC Hardware Installations / Upgrades"
+          [[params.skills.list.items]]
+          details = "Ticketing Systems"
+          [[params.skills.list.items]]
+          details = "Quality Control / Assurance"
+          [[params.skills.list.items]]
+          details = "Backup and Disaster Recovery"
+          [[params.skills.list.items]]
+          details = "Websites, Domain Network Services"
+          [[params.skills.list.items]]
+          details = "Remote PC Management"
+
+
+          [[params.skills.list]]
+          title = "Data-Driven"
+          [[params.skills.list.items]]
+          details = "Machine Learning"
+          [[params.skills.list.items]]
+          details = "Predictive Models"
+          [[params.skills.list.items]]
+          details = "Decision Trees, Boost Gradient"
+          [[params.skills.list.items]]
+          details = "Clustering, Classification"
+          [[params.skills.list.items]]
+          details = "Dimension Reduction"
+          [[params.skills.list.items]]
+          details = "A/B Testing, Time Series"
+          [[params.skills.list.items]]
+          details = "Regression"
+
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Quick Learner"
+        [[params.skills.list.items]]
+        details = "Effective Communication"
+        [[params.skills.list.items]]
+        details = "Team Player"
+        [[params.skills.list.items]]
+        details = "Strong Problem Solver"
+        [[params.skills.list.items]]
+        details = "Outside-the-Box Thinker"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Cybersecurity Analyst (CySA+)"
+        university = "ComptTIA"
+        dates = "2023 - In progress"
+
+        [[params.education.list]]
+        degree = "Azure Fundamentals Certification (AZ-900)"
+        university = "Microsoft"
+        dates = "2021"
+
+        [[params.education.list]]
+        degree = "Secure Infrastructure Specialist (A+, Network+, Security+)"
+        university = "CompTIA"
+        dates = "2020 - 2021"
+
+        [[params.education.list]]
+        degree = "Data Science Certification by IBM"
+        university = "Coursera"
+        dates = "2020"
+
+        [[params.education.list]]
+        degree = "B.S. in Cognitive Sciences, Concentration in Cognitive Neuroscience, Minor in Biological Sciences"
+        university = "University of California, Irvine"
+        dates = "2011 - 2014"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Honors in Psychology"
+        body = "Received Honors for GPA in Psychology"
+        date = "2014"
+        [[params.awards.list]]
+        name = "Psychology Honors Program"
+        body = "Developed and Presented Research Thesis on Perceptual Memory for Faces at the Undergraduate Research Symposium"
+        date = "2014"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Hiking"
+        [[params.interests.list]]
+        name = "Camping"
+        [[params.interests.list]]
+        name = "Reading"
+        [[params.interests.list]]
+        name = "Traveling"
+        [[params.interests.list]]
+        name = "Gaming"
+        [[params.interests.list]]
+        name = "PC Building"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Certified IT professional with 9+ years of experience in the IT & SaaS industry. | Passionate about teamwork, maximizes the synergy between people, processes and technology. | Growth that is driven by best practices, domain-expertise from industry leaders, and data. | Leveraging programming and best practices to find and fix bottlenecks in business processes."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Systems Administrator"
+        dates = "Nov 2022 - Current"
+        company = "Phoenix Management Solutions | San Antonio, TX"
+        details = "Designed, sets-up and optimizes IT infrastructure (Cybersecurity, Scripts, PC Maintenance, Remote Management, Ticketing System, Documentation, New User, Wi-Fi, Backups, Cloud) for the parent company and for 5 of the 7 companies that it owns:"
+        [[params.experience.list.items]]
+        details = "Writes and optimizes scripts to automate tasks using PowerShell and Bash for PC-based automation, especially through the remote agent."
+        [[params.experience.list.items]]
+        details = "Writes and optimizes scripts in Python for ETL projects, ensuring data is extracted, transformed, and loaded efficiently, per business requirements."
+        [[params.experience.list.items]]
+        details = "Created and implemented ticketing system to streamline IT support."
+        [[params.experience.list.items]]
+        details = "Proactively monitors and maintains networks and systems for HQ and the field offices to ensure optimal performance and availability."
+        [[params.experience.list.items]]
+        details = "Troubleshoots and resolves hardware, software, and connectivity issues, ensuring minimal downtime."
+        [[params.experience.list.items]]
+        details = "Installs, configures, and maintains cybersecurity tools across the company to safeguard our data and IT infrastructure."
+        [[params.experience.list.items]]
+        details = "Regularly updates and patches systems to protect against vulnerabilities."
+        [[params.experience.list.items]]
+        details = "Monitors security logs and alerts to identify and mitigate potential threats in real-time."
+        [[params.experience.list.items]]
+        details = "Plans, designs, and implements network installations and upgrades, including routers, firewalls, switches, and APs."
+        [[params.experience.list.items]]
+        details = "Ensures the stability, cost-effectiveness, and integrity of voice and data, video network services."
+        [[params.experience.list.items]]
+        details = "Collaborates with vendors and other IT personnel for problem resolution and project implementations."
+        [[params.experience.list.items]]
+        details = "Proactively monitors and maintains networks and systems for HQ and the field offices to ensure optimal performance and availability."
+        [[params.experience.list.items]]
+        details = "Troubleshoots and resolves hardware, software, and connectivity issues, ensuring minimal downtime."
+        [[params.experience.list.items]]
+        details = "Implements and manages backup solutions for company data."
+        [[params.experience.list.items]]
+        details = "Developed and tested the disaster recovery plans to ensure data integrity and availability.."
+        [[params.experience.list.items]]
+        details = "Maintains comprehensive documentation of processes, procedures, and configurations in the company knowledge base / ticketing system."
+        [[params.experience.list.items]]
+        details = "Provides regular IT status updates and reports to management."
+
+
+        [[params.experience.list]]
+        title = "Service Desk Specialist"
+        dates = "June 2021 - Nov 2022"
+        company = "Digital Hands | Remote"
+        details = "On behalf of the IT Managed Service Provider, provided service desk support & performed installations at 300+ IHG Hotels across the US & Canada:"
+        [[params.experience.list.items]]
+        details = "Leveraged: Powershell Scripts, Macro Automation and Chrome Extensions to process 80% more cases (compared to the average), and also reduced installation times by 40% while verifying 100% configuration functionality."
+        [[params.experience.list.items]]
+        details = "Received: Company-wide recognition for high-volume and high-quality throughput."
+        [[params.experience.list.items]]
+        details = "Resolved: Tier 1 and Tier 2 issues while working internally to escalate Tier 3 / 3rd-party issues."
+        [[params.experience.list.items]]
+        details = "Installed Tools: Active Directory, Remote Management, Anti-Virus, Firewall."
+        [[params.experience.list.items]]
+        details = "Configured: Networks environment for installations by checking for unauthorized devices on the network."
+
+        [[params.experience.list]]
+        title = "IT Specialist"
+        dates = "2021"
+        company = "Southwest Texas Regional Advisory Council - S.T.R.A.C. (Robert-Half Contract) | San Antonio, TX"
+        details = "Provided helpdesk support for Coronavirus / COVID-19 testing sites state-wide in Pennsylvania, Texas and Seattle:"
+        [[params.experience.list.items]]
+        details = "Created documentation that streamlined Tier 1 IT service to Coronavirus administrators and test-takers."
+        [[params.experience.list.items]]
+        details = "Collaborated internally to resolve Tier 2 issues and/or escalate Tier 3 issues as needed."
+        [[params.experience.list.items]]
+        details = "Created Python scripts that implemented automation for creating and resolving tickets."
+
+        [[params.experience.list]]
+        title = "Data Analyst Fellow (Apprenticeship)"
+        dates = "2020 - 2021"
+        company = "SharpestMinds | Remote"
+        details = "Developing data science skills and portfolio under the mentorship of Ilya Goldin PhD, Principal Data Science at Phenom People."
+        [[params.experience.list.items]]
+        details = "Analyzed dataset on transaction history & customer demographics to identify top sellers, top customers & predict new sales."
+        [[params.experience.list.items]]
+        details = "Built a web scraper for lead generation that tracks teams with new venture funding & stores that data into a SQL database."
+
+
+        [[params.experience.list]]
+        title = "PC Technician"
+        dates = "2020"
+        company = "Intech Southwest Services (Robert-Half Contract) | San Antonio, TX"
+        details = "PC Technician at the Kelly Smith Technology Center for the students and staff of the Northside Independent School District."
+        [[params.experience.list.items]]
+        details = "Disassembling, repairing, restoring and upgrading chromebooks and laptops."
+        [[params.experience.list.items]]
+        details = "Fixing issues by reseating and/or replacing keyboards, screens, touchscreens, touchpads, back/front covers, DC ports, network cards, speakers, webcams and opertaing systems"
+
+        [[params.experience.list]]
+        title = "PC Technician"
+        dates = "2020"
+        company = "Pit Crew IT Services (Robert-Half Contract) | San Antonio, TX"
+        details = "Configuring laptops for Coronavirus vaccination sites."
+        [[params.experience.list.items]]
+        details = "Preparing laptops by setting up the profiles. passwords, VPN connection and configuration (via imaging)."
+
+        [[params.experience.list]]
+        title = "Field Support Technician"
+        dates = "2020"
+        company = "LA County Registaar (Robert-Half Contract) | Los Angeles, CA"
+        details = "Oversaw and maintained voting booth's equipment for the US Presidential elections in November 2020"
+        [[params.experience.list.items]]
+        details = "Oversaw power backups, iPad tablets, voting stations, printers and network connection for early-voting and the day of 2020 election."
+        [[params.experience.list.items]]
+        details = "Used teamwork, proactive maintenance and troubleshooting skills to ensure 100% uptime and wait times between 0-2 minutes."
+
+        [[params.experience.list]]
+        title = "SaaS Sales Experience"
+        dates = "2015 - 2020"
+        company = "OnePoint HCM, Intellect, BlackLine, CareerArc | Remote"
+        details = "Led in cold-calling and conversion rates by collaborating with teams of stakeholders (CXO, IT, Accounting, Manufacturing) to identify gaps in technology while aligning SaaS solutions that would help maximize current assets and emerging technologies"
+        [[params.experience.list.items]]
+        details = "Increased monthly on-site demos from marketing leads by 300% (2-to-6 monthly). (OnePoint HCM)"
+        [[params.experience.list.items]]
+        details = "Optimized SDR playbook for outbound prospecting and increased overall outbound pipeline by 200% (10%-to-30%) (Intellect)"
+        [[params.experience.list.items]]
+        details = "Brought in 300% more monthly pipeline value than average mid-market BDR with only 1/5th the accounts. (BlackLine)"
+        [[params.experience.list.items]]
+        details = "Created strategy for high-volume lead sourcing technique that increased team’s monthly leads by 300% (15-to-45 MQLs)"
+
+
+        [[params.experience.list]]
+        title = "Research Assistant"
+        dates = "2012 - 2014"
+        company = "NeuroImaging and Visual Perception Lab | Irvine, CA"
+        details = "Under Emily Grossman PhD, studied neuroimaging & visual perception"
+        [[params.experience.list.items]]
+        details = "Conducting experiments, Cleaning fMRI brain scans for data analysis."
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Data Analytics Consulting Virtual Internship - Profit Predictor and Customer Classifier"
+        meta = "KPMG | 2020"
+        tagline = "Allowing a bike shop owner to understand what customer features they should focus on in order maximize the ROI of their marketing efforts for current and new markets - by analyzing transaction history, customer data to predict new sales and create clusters of ideal customer profiles to market to."
+
+
+        [[params.projects.list]]
+        title = "Web Scraping Project - List of US Venture-Funded Companies"
+        meta = "VCNewsDaily.com | 2020"
+        tagline = "Building a list of leads and allowing teams (such as finance, research, venture capital, sales, marketing) to understand how the market is developing in regards to innovation and venture funding - by collecting a list of US companies who have recieved venture funding, along with all of the information pertaining to the funding rounds themselves. With the data store in dataframes, excel sheets, and a SQL server."
+
+
+        [[params.projects.list]]
+        title = "Capstone Project - LA County Clustering Benchmarks"
+        meta = "Coursera | 2020"
+        tagline = "Allowing LA County city officials to understand what city benchmarks they should be focusing on (i.e, education, heatlh,) in order to improve overall success of their cities and make the most of their budgets - by analyzing various city benchmarks and determine how much predictive power they have towards future success, along with clusters cities accordingly to develop benchmarks for each group."
+
+
+        [[params.projects.list]]
+        title = "'Predictable Prospecting' Training Course"
+        meta = "CareerArc, BlackLine | 2015, 2017"
+        tagline = "Course Developed by Marylou Tyler, Former VP of Sales at SalesForce and Best Selling Author of Predictable Prospecting -- Maximizing Outbound Strategies and Campaigns by Developing Ideal Prospect Profiles, Messaging, Sequences, Sales KPIs."
+
+
+        [[params.projects.list]]
+        title = "Senior Honor Thesis Project - Perceptual-Memory of Faces"
+        meta = "UC Irvine | 2014"
+        tagline = "Research studied subconscious learning mechanisms of faces, by studying how perceptual-senses developed with stimulation-based training."
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/marky224"
+        title = "marky224"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/markandrewmarquez"
+        title = "MarkAndrewMarquez"
+#        [[params.social.list]]
+#        icon = "fab fa-twitter-square"
+#        url = "//twitter.com/username"
+#        title = "@username"
